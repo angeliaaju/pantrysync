@@ -1,0 +1,87 @@
+# app/pubspec.yaml
+name: fridge_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^0.13.4
+  google_fonts: ^2.1.0
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Fridge.jpg
+    - assets/images/whole_wheat_bread.jpg
+    - assets/images/white_bread.jpg
+    - assets/images/bagels_pack_of_six.jpg
+    - assets/images/croissants.jpg
+    - assets/images/muffins_pack_of_four.jpg
+    - assets/images/donuts_pack_of_six.jpg
+    - assets/images/sourdough_bread.jpg
+    - assets/images/ciabatta_rolls.jpg
+    - assets/images/pita_bread.jpg
+    - assets/images/baguette.jpg
+    - assets/images/rye_bread.jpg
+    - assets/images/english_muffins.jpg
+    - assets/images/tortilla_wraps.jpg
+    - assets/images/dinner_rolls.jpg
+    - assets/images/flatbread.jpg
+    - assets/images/brioche.jpg
+    - assets/images/pretzels.jpg
+    - assets/images/crackers.jpg
+    - assets/images/cookies.jpg
+    - assets/images/pancake_mix.jpg
+    - assets/images/milk_one.jpg
+    - assets/images/cheese_cheddar.jpg
+    - assets/images/yogurt_plain.jpg
+    - assets/images/butter.jpg
+    - assets/images/cream_cheese.jpg
+    - assets/images/sour_cream.jpg
+    - assets/images/whipped_cream.jpg
+    - assets/images/cottage_cheese.jpg
+    - assets/images/mozzarella.jpg
+    - assets/images/parmesan.jpg
+    - assets/images/greek_yogurt.jpg
+    - assets/images/creamer.jpg
+    - assets/images/ricotta.jpg
+    - assets/images/feta.jpg
+    - assets/images/half_and_half.jpg
+    - assets/images/ice_cream.jpg
+    - assets/images/gouda.jpg
+    - assets/images/provolone.jpg
+    - assets/images/brie.jpg
+    - assets/images/milk_two.jpg
+    - assets/images/apples.jpg
+    - assets/images/bananas.jpg
+    - assets/images/oranges.jpg
+    - assets/images/grapes.jpg
+    - assets/images/strawberries.jpg
+    - assets/images/carrots.jpg
+    - assets/images/broccoli.jpg
+    - assets/images/spinach.jpg
+    - assets/images/tomatoes.jpg
+    - assets/images/potatoes.jpg
+    - assets/images/lettuce.jpg
+    - assets/images/cucumbers.jpg
+    - assets/images/bell_peppers.jpg
+    - assets/images/onions.jpg
+    - assets/images/garlic.jpg
+    - assets/images/mushrooms.jpg
+    - assets/images/fridge_container_flour.jpg
+    - assets/images/fridge_container_milk.jpg
+    - assets/images/fridge_mat.jpg
+    - assets/images/flour.jpg
